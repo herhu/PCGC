@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "PCGC",
-    "slug": "PCGC",
+    "slug": "pcgc",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -36,6 +36,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "c6fd3b4b-31b7-498c-a7c2-55de7fa2881c"
+      }
+    },
+    "owner": "hernanhum"
   }
 }
